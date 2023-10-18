@@ -23,6 +23,10 @@ const StyledCard = styled.div`
   div > div > a {
     color: ${darkColor};
   }
+
+  @media screen and (max-width: 400px){
+    width: 100%;
+  }
 `;
 
 const StyledImg = styled.img`
@@ -69,7 +73,7 @@ const Card = ({ img, github, link, name }: Props) => {
         reset: true,
         delay: 300
       });
-  })
+  }, [])
 
 
   return (
@@ -79,13 +83,13 @@ const Card = ({ img, github, link, name }: Props) => {
         <h2>{name}</h2>
         <div>
           <AiFillGithub size={30} />
-          <a href={github} target="_blank">
+          <a href={github} target="_blank" rel="noreferrer">
             Link no github
           </a>
         </div>
         <div>
           <AiOutlineLink size={30} />
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noreferrer">
             Link para ver o projeto
           </a>
         </div>
