@@ -4,9 +4,10 @@ import { StyledContainer } from "../../UI/utils/utils";
 import Card from "../../components/Card/Card";
 import Title from "../../components/Title/Title";
 import data from "../../data/data.json";
-import { darkColor, firstNameColor } from "../../UI/variables";
+import { darkColor } from "../../UI/variables";
 import { useEffect, useRef, useState } from "react";
 import scrollReveal from "scrollreveal";
+import { IProject } from "../../interfaces/IProject";
 
 const StyledContainerCards = styled.div`
   display: flex;
@@ -36,7 +37,7 @@ const StyledButton = styled.button`
 
 const Projects = () => {
   const halfData = data.slice(0, Number((data.length / 2).toFixed()));
-  const [projects, setProjects] = useState(halfData);
+  const [projects, setProjects] = useState<IProject[]>(halfData);
   const [btnState, setBtnState] = useState(false);
 
   const elementRef = useRef(null);
@@ -46,7 +47,7 @@ const Projects = () => {
         reset: true,
         delay: 300
       });
-  })
+  }, [])
 
   return (
     <StyledSection id="projects">

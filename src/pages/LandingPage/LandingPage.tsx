@@ -82,7 +82,7 @@ const LandingPage = () => {
         reset: true,
         delay: 200
       });
-  })
+  }, [])
 
   return (
     <StyledSection>

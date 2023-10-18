@@ -74,7 +74,7 @@ const AboutMe = () => {
         reset: true,
         delay: 100
       });
-  })
+  }, [])
 
   return (
     <StyledSection id="aboutme" dark>
