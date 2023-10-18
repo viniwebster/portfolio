@@ -2,7 +2,9 @@ import styled from "styled-components";
 import { StyledSection } from "../../UI/utils/Section";
 import avatar from "../../assets/avatar-code.png";
 import { StyledContainer } from "../../UI/utils/utils";
-import { darkColor, firstNameColor, mdFont, normalFont, secondNameColor, veryDarkColor } from "../../UI/variables";
+import { darkColor, firstNameColor, secondNameColor, veryDarkColor } from "../../UI/variables";
+import { useEffect, useRef } from "react";
+import scrollReveal from "scrollreveal";
 
 const StyledLandingPage = styled.section`
   display: flex;
@@ -13,6 +15,11 @@ const StyledLandingPage = styled.section`
   
   padding: 6rem 0;
   flex-wrap: wrap;
+  img{ 
+    @media screen and (max-width: 500px){
+    width: 100%;
+  }
+  }
 `;
 
 const StyledDivName = styled.div`
@@ -22,6 +29,9 @@ const StyledDivName = styled.div`
   padding-top: 4rem;
   align-items: center;
   width: 50%;
+  @media screen and (max-width: 500px){
+    width: 100%;
+  }
 `
 
 const StyledName = styled.h1`
@@ -33,6 +43,10 @@ const StyledName = styled.h1`
   span {
     display: block;
     color: ${secondNameColor};
+  }
+
+  @media screen and (max-width: 500px){
+    font-size: 4rem;
   }
 `
 
@@ -59,10 +73,21 @@ const StyledButton = styled.a`
 `
 
 const LandingPage = () => {
+
+  const elementRef = useRef(null)
+
+  useEffect(() => {
+    if (elementRef.current)
+      scrollReveal().reveal(elementRef.current, {
+        reset: true,
+        delay: 200
+      });
+  })
+
   return (
     <StyledSection>
       <StyledContainer>
-        <StyledLandingPage>
+        <StyledLandingPage ref={elementRef}>
             <img src={avatar} alt="ilustração pessoa codando" />
           <StyledDivName>
             <StyledName>
