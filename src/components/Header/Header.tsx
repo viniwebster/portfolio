@@ -40,7 +40,7 @@ const Header = () => {
   return (
     <StyledHeader>
       <StyledNav>
-        <BsCodeSlash color={mdColor} size={50} />
+        <BsCodeSlash color={mdColor} size={40} />
         <StyledUl>
           <li>
             <StyledA href="#aboutme">Sobre mim</StyledA>
@@ -48,16 +48,13 @@ const Header = () => {
           <li>
             <StyledA href="#projects">Projetos</StyledA>
           </li>
-          <li>
-            <StyledA href="#habilits">Habilidades</StyledA>
-          </li>
         </StyledUl>
       </StyledNav>
       <div>
-        <a href="https://www.linkedin.com/in/viniwebster/" target="_blank">
+        <a href="https://www.linkedin.com/in/viniwebster/" target="_blank" rel="noreferrer">
           <AiFillLinkedin color={mdColor} size={40} />
         </a>
-        <a href="https://github.com/viniwebster" target="_blank">
+        <a href="https://github.com/viniwebster" target="_blank" rel="noreferrer">
           <AiFillGithub color={mdColor} size={40} />
         </a>
       </div>
