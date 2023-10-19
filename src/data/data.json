@@ -1,29 +1,5 @@
 [
   {
-    "name": "Age Calculator",
-    "image": "assets/projects/age-calculator.png",
-    "link": "https://age-calculator-viniwebster.vercel.app/",
-    "github": "https://github.com/viniwebster/age-calculator",
-    "technologies": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
-    "id": 0
-  },
-  {
-    "name": "Splitter",
-    "image": "assets/projects/splitter.png",
-    "link": "https://splitter-xi.vercel.app/",
-    "github": "https://github.com/viniwebster/splitter",
-    "technologies": [
-      "HTML",
-      "SCSS",
-      "JavaScript"
-    ],
-    "id": 1
-  },
-  {
     "name": "Viniflix",
     "image": "assets/projects/entertainment-web.png",
     "link": "https://viniflix-seven.vercel.app/",
@@ -33,42 +9,7 @@
       "SCSS",
       "React-Router-DOM"
     ],
-    "id": 2
-  },
-  {
-    "name": "Meteora",
-    "image": "assets/projects/meteora.png",
-    "link": "https://meteora-tau.vercel.app/",
-    "github": "https://github.com/viniwebster/Meteora",
-    "technologies": [
-      "HTML",
-      "SCSS",
-      "TypeScript"
-    ],
-    "id": 3
-  },
-  {
-    "name": "Casa Verde",
-    "image": "assets/projects/casaverde.png",
-    "link": "https://casa-verde-nine.vercel.app/",
-    "github": "https://github.com/viniwebster/casa-verde",
-    "technologies": [
-      "ReactJS",
-      "CSS"
-    ],
-    "id": 4
-  },
-  {
-    "name": "Shortly",
-    "image": "assets/projects/shortly.png",
-    "link": "https://encurtador-de-links-omega.vercel.app/",
-    "github": "https://github.com/viniwebster/encurtador-de-links",
-    "technologies": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
-    "id": 5
+    "id": 1
   },
   {
     "name": "Countries",
@@ -79,40 +20,7 @@
       "ReactTS",
       "SCSS"
     ],
-    "id": 6
-  },
-  {
-    "name": "GitHub user search",
-    "image": "assets/projects/github-user.png",
-    "link": "https://github-user-search-six-steel.vercel.app/",
-    "github": "https://github.com/viniwebster/github-user-search",
-    "technologies": [
-      "ReactTS",
-      "Styled Components"
-    ],
-    "id": 7
-  },
-  {
-    "name": "SpaceApp",
-    "image": "assets/projects/spaceapp.png",
-    "link": "https://space-app-phi-ecru.vercel.app/",
-    "github": "https://github.com/viniwebster/spaceApp",
-    "technologies": [
-      "ReactJS",
-      "Styled Components"
-    ],
-    "id": 8
-  },
-  {
-    "name": "Adopet",
-    "image": "assets/projects/adopet.png",
-    "link": "https://adopet-steel.vercel.app/",
-    "github": "https://github.com/viniwebster/adopet",
-    "technologies": [
-      "ReactTS",
-      "Styled Components"
-    ],
-    "id": 9
+    "id": 2
   },
   {
     "name": "Dictionary App",
@@ -124,54 +32,19 @@
       "SCSS",
       "JavaScript"
     ],
-    "id": 10
+    "id": 3
   },
   {
-    "name": "LoopStudio",
-    "image": "assets/projects/loopstudio.png",
-    "link": "https://loopstudios-zeta-five.vercel.app/",
-    "github": "https://github.com/viniwebster/loopstudios",
-    "technologies": [
-      "ReactJS",
-      "CSS"
-    ],
-    "id": 11
-  },
-  {
-    "name": "Form Validator Card",
-    "image": "assets/projects/form-validator.png",
-    "link": "https://form-validator-coral.vercel.app/",
-    "github": "https://github.com/viniwebster/form-validator",
+    "name": "Meteora",
+    "image": "assets/projects/meteora.png",
+    "link": "https://meteora-tau.vercel.app/",
+    "github": "https://github.com/viniwebster/Meteora",
     "technologies": [
       "HTML",
       "SCSS",
-      "JavaScript"
+      "TypeScript"
     ],
-    "id": 12
-  },
-  {
-    "name": "SunnySid",
-    "image": "assets/projects/sunnysid.png",
-    "link": "https://sunnysid.vercel.app/",
-    "github": "https://github.com/viniwebster/Sunnysid",
-    "technologies": [
-      "HTML",
-      "SCSS",
-      "JavaScript"
-    ],
-    "id": 13
-  },
-  {
-    "name": "Ip Address Tracker",
-    "image": "assets/projects/ip-address.png",
-    "link": "https://ip-address-tracker-phi-tan.vercel.app/",
-    "github": "https://github.com/viniwebster/ip-address-tracker",
-    "technologies": [
-      "HTML",
-      "SCSS",
-      "JavaScript"
-    ],
-    "id": 14
+    "id": 4
   },
   {
     "name": "CodeChella",
@@ -183,6 +56,134 @@
       "SCSS",
       "JavaScript"
     ],
+    "id": 5
+  },
+  {
+    "name": "GitHub user search",
+    "image": "assets/projects/github-user.png",
+    "link": "https://github-user-search-six-steel.vercel.app/",
+    "github": "https://github.com/viniwebster/github-user-search",
+    "technologies": [
+      "ReactTS",
+      "Styled Components"
+    ],
+    "id": 6
+  },
+  {
+    "name": "Splitter",
+    "image": "assets/projects/splitter.png",
+    "link": "https://splitter-xi.vercel.app/",
+    "github": "https://github.com/viniwebster/splitter",
+    "technologies": [
+      "HTML",
+      "SCSS",
+      "JavaScript"
+    ],
+    "id": 7
+  },
+  {
+        "name": "Adopet",
+    "image": "assets/projects/adopet.png",
+    "link": "https://adopet-steel.vercel.app/",
+    "github": "https://github.com/viniwebster/adopet",
+    "technologies": [
+      "ReactTS",
+      "Styled Components"
+    ],
+    "id": 8
+  },
+  {
+    "name": "SpaceApp",
+    "image": "assets/projects/spaceapp.png",
+    "link": "https://space-app-phi-ecru.vercel.app/",
+    "github": "https://github.com/viniwebster/spaceApp",
+    "technologies": [
+      "ReactJS",
+      "Styled Components"
+    ],
+    "id": 9
+  },
+  {
+    "name": "Shortly",
+    "image": "assets/projects/shortly.png",
+    "link": "https://encurtador-de-links-omega.vercel.app/",
+    "github": "https://github.com/viniwebster/encurtador-de-links",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "id": 10
+  },
+  {
+    "name": "Age Calculator",
+    "image": "assets/projects/age-calculator.png",
+    "link": "https://age-calculator-viniwebster.vercel.app/",
+    "github": "https://github.com/viniwebster/age-calculator",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "id": 11
+  },
+  {
+    "name": "Casa Verde",
+    "image": "assets/projects/casaverde.png",
+    "link": "https://casa-verde-nine.vercel.app/",
+    "github": "https://github.com/viniwebster/casa-verde",
+    "technologies": [
+      "ReactJS",
+      "CSS"
+    ],
+    "id": 12
+
+  },
+  {
+    "name": "Form Validator Card",
+    "image": "assets/projects/form-validator.png",
+    "link": "https://form-validator-coral.vercel.app/",
+    "github": "https://github.com/viniwebster/form-validator",
+    "technologies": [
+      "HTML",
+      "SCSS",
+      "JavaScript"
+    ],
+    "id": 13
+  },
+  {
+    "name": "SunnySid",
+    "image": "assets/projects/sunnysid.png",
+    "link": "https://sunnysid.vercel.app/",
+    "github": "https://github.com/viniwebster/Sunnysid",
+    "technologies": [
+      "HTML",
+      "SCSS",
+      "JavaScript"
+    ],
+    "id": 14
+  },
+  {
+    "name": "Ip Address Tracker",
+    "image": "assets/projects/ip-address.png",
+    "link": "https://ip-address-tracker-phi-tan.vercel.app/",
+    "github": "https://github.com/viniwebster/ip-address-tracker",
+    "technologies": [
+      "HTML",
+      "SCSS",
+      "JavaScript"
+    ],
     "id": 15
+  },
+  {
+    "name": "LoopStudio",
+    "image": "assets/projects/loopstudio.png",
+    "link": "https://loopstudios-zeta-five.vercel.app/",
+    "github": "https://github.com/viniwebster/loopstudios",
+    "technologies": [
+      "ReactJS",
+      "CSS"
+    ],
+    "id": 16
   }
 ]
