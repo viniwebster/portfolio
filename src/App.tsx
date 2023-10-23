@@ -1,20 +1,20 @@
-import { GlobalStyles } from "./UI/GlobalStyles";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import AboutMe from "./pages/AboutMe/AboutMe";
-import LandingPage from "./pages/LandingPage/LandingPage";
-import Projects from "./pages/Projects/Projects";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage/HomePage";
+import Project from "./pages/Project/Project";
+import DefaultPage from "./pages/DefaultPage/DefaultPage";
 
 function App() {
   return (
-    <>
-      <GlobalStyles />
-      <Header />
-      <LandingPage />
-      <AboutMe />
-      <Projects />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route>
+          <Route path="/" element={<DefaultPage />}>
+            <Route index element={<HomePage />} />
+            <Route path="/:id" element={<Project />} />
+          </Route>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
