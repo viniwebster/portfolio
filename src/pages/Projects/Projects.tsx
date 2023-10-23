@@ -8,6 +8,7 @@ import { darkColor } from "../../UI/variables";
 import { useEffect, useRef, useState } from "react";
 import scrollReveal from "scrollreveal";
 import { IProject } from "../../interfaces/IProject";
+import { Link } from "react-router-dom";
 
 const StyledContainerCards = styled.div`
   display: flex;
@@ -35,6 +36,13 @@ const StyledButton = styled.button`
   }
 `;
 
+const StyledLink = styled(Link)`
+  width: 400px;
+  @media screen and (max-width: 500px){
+    width: 100%;
+  }
+`
+
 const Projects = () => {
   const halfData = data.slice(0, Number((data.length / 2).toFixed()));
   const [projects, setProjects] = useState<IProject[]>(halfData);
@@ -55,13 +63,14 @@ const Projects = () => {
         <Title text="Projetos" />
         <StyledContainerCards>
           {projects.map((project) => (
+          <StyledLink to={`/${project.id}`} key={project.id}>
             <Card
-              key={project.id}
               img={project.image}
               github={project.github}
               link={project.link}
               name={project.name}
             />
+          </StyledLink>
           ))}
         </StyledContainerCards>
         {btnState ? (
