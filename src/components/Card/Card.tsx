@@ -1,12 +1,11 @@
 import styled from "styled-components";
 import { darkColor, firstNameColor, mdColor, mdFont } from "../../UI/variables";
-import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
 import { useEffect, useRef } from "react";
 import scrollReveal from "scrollreveal";
 
 const StyledCard = styled.div`
   width: 400px;
-  height: 500px;
+  height: 280px;
   background-color: ${mdColor};
   padding: 1rem;
   box-sizing: border-box;
@@ -24,14 +23,15 @@ const StyledCard = styled.div`
     color: ${darkColor};
   }
 
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 500px){
     width: 100%;
   }
 `;
 
 const StyledImg = styled.img`
   width: 100%;
-  object-fit: contain;
+  height: 187px;
+  object-fit: cover;
   box-sizing: border-box;
 `;
 
@@ -39,7 +39,7 @@ const StyledDescriptionContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-top: 32px;
+  margin-top: 16px;
 
   h2 {
     font-weight: 800;
@@ -81,18 +81,6 @@ const Card = ({ img, github, link, name }: Props) => {
       <StyledImg src={img} />
       <StyledDescriptionContainer>
         <h2>{name}</h2>
-        <div>
-          <AiFillGithub size={30} />
-          <a href={github} target="_blank" rel="noreferrer">
-            Link no github
-          </a>
-        </div>
-        <div>
-          <AiOutlineLink size={30} />
-          <a href={link} target="_blank" rel="noreferrer">
-            Link para ver o projeto
-          </a>
-        </div>
       </StyledDescriptionContainer>
     </StyledCard>
   );
