@@ -6,9 +6,9 @@
     "github": "https://github.com/viniwebster/viniflix",
     "technologies": [
       "ReactJS",
-      "SCSS",
-      "React-Router-DOM"
+      "SCSS"
     ],
+    "description": "Projeto de um site de entretenimento, onde temos filmes e séries. O projeto foi feito utilizando ReactJS, SCSS e React-Router-DOM.",
     "id": 1
   },
   {
@@ -20,6 +20,7 @@
       "ReactTS",
       "SCSS"
     ],
+    "description": "Projeto de um site de busca de países, utilizando a api REST COUNTRIES. O projeto foi feito utilizando ReactTS, SCSS e React-Router-DOM.",
     "id": 2
   },
   {
@@ -32,6 +33,7 @@
       "SCSS",
       "JavaScript"
     ],
+    "description": "Projeto de um dicionário feito utilizando o Dictionary API . O projeto foi feito utilizando HTML, SCSS e JavaScript.",
     "id": 3
   },
   {
@@ -44,6 +46,7 @@
       "SCSS",
       "TypeScript"
     ],
+    "description": "Projeto de um e-commerce de roupas, com modal para ver mais informações. O projeto foi feito utilizando HTML, SCSS, TypeScript e a biblioteca swiperjs",
     "id": 4
   },
   {
@@ -56,6 +59,7 @@
       "SCSS",
       "JavaScript"
     ],
+    "description": "Projeto de uma página de anúncio de um evento. O projeto foi feito utilizando HTML, SCSS e JavaScript",
     "id": 5
   },
   {
@@ -67,6 +71,7 @@
       "ReactTS",
       "Styled Components"
     ],
+    "description": "Projeto de um buscador de usuário do github utilizando a api do próprio site. O projeto foi feito utilizando ReactTS, Styled Components e axios",
     "id": 6
   },
   {
@@ -79,10 +84,11 @@
       "SCSS",
       "JavaScript"
     ],
+    "description": "Projeto de uma calculadora de gorjetas. O projeto foi feito utilizando HTML, SCSS e JavaScript",
     "id": 7
   },
   {
-        "name": "Adopet",
+    "name": "Adopet",
     "image": "assets/projects/adopet.png",
     "link": "https://adopet-steel.vercel.app/",
     "github": "https://github.com/viniwebster/adopet",
@@ -90,6 +96,7 @@
       "ReactTS",
       "Styled Components"
     ],
+    "description": "Projeto de uma página de adoção de pets, com sistema de login. O projeto foi feito utilizando ReactTS e Styled Components",
     "id": 8
   },
   {
@@ -101,6 +108,7 @@
       "ReactJS",
       "Styled Components"
     ],
+    "description": "Projeto de uma página de astronomia. O projeto foi feito utilizando ReactJS e StyledComponents",
     "id": 9
   },
   {
@@ -113,6 +121,7 @@
       "CSS",
       "JavaScript"
     ],
+    "description": "Projeto de um site de encurtador de links, utilizando a api do shrtcode(a api se encontra offline atualmente). O projeto foi feito utilizando HTML, CSS e JavaScript",
     "id": 10
   },
   {
@@ -125,6 +134,7 @@
       "CSS",
       "JavaScript"
     ],
+    "description": "Projeto de uma calculadora de idade, mostrando o número de dias, meses e anos que voce tem. O projeto foi feito utilizando HTML, CSS e JavaScript",
     "id": 11
   },
   {
@@ -136,6 +146,7 @@
       "ReactJS",
       "CSS"
     ],
+    "description": "Projeto de uma página de e-commerce de plantas. O projeto foi feito utilizando ReactJS e CSS",
     "id": 12
 
   },
@@ -149,6 +160,7 @@
       "SCSS",
       "JavaScript"
     ],
+    "description": "Projeto de uma página de cartão de créditos, onde é feita a validação de formulário. O projeto foi feito utilizando HTML, SCSS e JavaScript",
     "id": 13
   },
   {
@@ -161,6 +173,7 @@
       "SCSS",
       "JavaScript"
     ],
+    "description": "Projeto de uma página de design. O projeto foi feito utilizando HTML, SCSS e JavaScript",
     "id": 14
   },
   {
@@ -173,6 +186,7 @@
       "SCSS",
       "JavaScript"
     ],
+    "description": "Projeto de um buscador de IP utilizando a api do IP Geolocation. O projeto foi feito utilizando HTML, SCSS e JavaScript",
     "id": 15
   },
   {
@@ -184,6 +198,7 @@
       "ReactJS",
       "CSS"
     ],
+    "description": "Projeto de uma loja de realidade virtual. O projeto foi feito utilizando ReactJS e CSS",
     "id": 16
   }
 ]
