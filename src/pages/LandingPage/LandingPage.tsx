@@ -56,6 +56,11 @@ const StyledSubtitle = styled.p`
   font-size: 20px;
   line-height: 30px;
   width: 80%;
+
+  @media screen and (max-width: 500px){
+    width: 100%;
+    text-align: center;
+  }
 `
 
 const StyledButton = styled.a`
