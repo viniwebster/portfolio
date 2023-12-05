@@ -12,6 +12,18 @@
     "id": 1
   },
   {
+    "name": "Cheiro de Novo",
+    "image": "assets/projects/cheiro-de-novo.png",
+    "link": "https://cheiro-de-novo.vercel.app/",
+    "github": "https://github.com/viniwebster/cheiro-de-novo",
+    "technologies": [
+      "ReactTS",
+      "Styled Components"
+    ],
+    "description": "Projeto de um site de ecommerce feito utilizando a API do https://fakestoreapi.com/. O projeto foi feito utilizando ReactTS, Styled Components, React Query e React-Router-DOM.",
+    "id": 2
+  },
+  {
     "name": "Countries",
     "image": "assets/projects/rest-countrie.png",
     "link": "https://rest-countries-tau-seven.vercel.app/",
@@ -21,7 +33,7 @@
       "SCSS"
     ],
     "description": "Projeto de um site de busca de países, utilizando a api REST COUNTRIES. O projeto foi feito utilizando ReactTS, SCSS e React-Router-DOM.",
-    "id": 2
+    "id": 3
   },
   {
     "name": "Dictionary App",
@@ -34,7 +46,7 @@
       "JavaScript"
     ],
     "description": "Projeto de um dicionário feito utilizando o Dictionary API . O projeto foi feito utilizando HTML, SCSS e JavaScript.",
-    "id": 3
+    "id": 4
   },
   {
     "name": "Meteora",
@@ -47,7 +59,7 @@
       "TypeScript"
     ],
     "description": "Projeto de um e-commerce de roupas, com modal para ver mais informações. O projeto foi feito utilizando HTML, SCSS, TypeScript e a biblioteca swiperjs",
-    "id": 4
+    "id": 5
   },
   {
     "name": "CodeChella",
@@ -60,7 +72,7 @@
       "JavaScript"
     ],
     "description": "Projeto de uma página de anúncio de um evento. O projeto foi feito utilizando HTML, SCSS e JavaScript",
-    "id": 5
+    "id": 6
   },
   {
     "name": "GitHub user search",
@@ -72,7 +84,7 @@
       "Styled Components"
     ],
     "description": "Projeto de um buscador de usuário do github utilizando a api do próprio site. O projeto foi feito utilizando ReactTS, Styled Components e axios",
-    "id": 6
+    "id": 7
   },
   {
     "name": "Splitter",
@@ -85,7 +97,7 @@
       "JavaScript"
     ],
     "description": "Projeto de uma calculadora de gorjetas. O projeto foi feito utilizando HTML, SCSS e JavaScript",
-    "id": 7
+    "id": 8
   },
   {
     "name": "Adopet",
@@ -97,7 +109,7 @@
       "Styled Components"
     ],
     "description": "Projeto de uma página de adoção de pets, com sistema de login. O projeto foi feito utilizando ReactTS e Styled Components",
-    "id": 8
+    "id": 9
   },
   {
     "name": "SpaceApp",
@@ -109,7 +121,7 @@
       "Styled Components"
     ],
     "description": "Projeto de uma página de astronomia. O projeto foi feito utilizando ReactJS e StyledComponents",
-    "id": 9
+    "id": 10
   },
   {
     "name": "Shortly",
@@ -122,7 +134,7 @@
       "JavaScript"
     ],
     "description": "Projeto de um site de encurtador de links, utilizando a api do shrtcode(a api se encontra offline atualmente). O projeto foi feito utilizando HTML, CSS e JavaScript",
-    "id": 10
+    "id": 11
   },
   {
     "name": "Age Calculator",
@@ -135,7 +147,7 @@
       "JavaScript"
     ],
     "description": "Projeto de uma calculadora de idade, mostrando o número de dias, meses e anos que voce tem. O projeto foi feito utilizando HTML, CSS e JavaScript",
-    "id": 11
+    "id": 12
   },
   {
     "name": "Casa Verde",
@@ -147,7 +159,7 @@
       "CSS"
     ],
     "description": "Projeto de uma página de e-commerce de plantas. O projeto foi feito utilizando ReactJS e CSS",
-    "id": 12
+    "id": 13
 
   },
   {
@@ -161,7 +173,7 @@
       "JavaScript"
     ],
     "description": "Projeto de uma página de cartão de créditos, onde é feita a validação de formulário. O projeto foi feito utilizando HTML, SCSS e JavaScript",
-    "id": 13
+    "id": 14
   },
   {
     "name": "SunnySid",
@@ -174,7 +186,7 @@
       "JavaScript"
     ],
     "description": "Projeto de uma página de design. O projeto foi feito utilizando HTML, SCSS e JavaScript",
-    "id": 14
+    "id": 15
   },
   {
     "name": "Ip Address Tracker",
@@ -187,7 +199,7 @@
       "JavaScript"
     ],
     "description": "Projeto de um buscador de IP utilizando a api do IP Geolocation. O projeto foi feito utilizando HTML, SCSS e JavaScript",
-    "id": 15
+    "id": 16
   },
   {
     "name": "LoopStudio",
@@ -199,6 +211,6 @@
       "CSS"
     ],
     "description": "Projeto de uma loja de realidade virtual. O projeto foi feito utilizando ReactJS e CSS",
-    "id": 16
+    "id": 17
   }
 ]
